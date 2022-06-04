@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Teko&amp;display=swap");
+*,*:before,*:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+	background:#fff;
+	margin:0;
+	color:#ffffff;
+	font-family:'Teko',sans-serif;
+}
+.container {
+	background: #ffffff;
+	margin:0px auto;
+	margin-top:0.5%;
+	margin-bottom:0.5%;
+	max-width:480px;
+	height:480px;
+	border: 0px solid #ffffff;
+	border-radius:10px;
+	}
+.container-mask {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.navbar {
+	background: #000;
+	width:100%;
+	height:50px;
+	border-bottom:0px solid #ffffff;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.navbar-logo-box {
+	width: 150px;
+	height: 100%;
+	border-top-left-radius: 2px;
+	border-bottom: 50px solid #ffffff;
+    border-right: 50px solid transparent;
+}
+.navbar-logo-box img {
+	width: 100px;
+	padding-top: 10px;
+	margin-left: 8px;
+}
